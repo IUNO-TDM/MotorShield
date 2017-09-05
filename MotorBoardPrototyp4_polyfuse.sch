@@ -682,8 +682,8 @@ LBR by Tim Rettmann 07-2014</description>
 <wire x1="0" y1="0" x2="0" y2="9.2" width="0.127" layer="51"/>
 <wire x1="0" y1="9.2" x2="9.01" y2="9.2" width="0.127" layer="51"/>
 <wire x1="9.01" y1="9.2" x2="9.01" y2="0" width="0.127" layer="51"/>
-<pad name="PLUS" x="2.6" y="8" drill="0.9" diameter="1.6764" shape="square"/>
-<pad name="MINUS" x="6.41" y="8" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="PLUS" x="2.6" y="8" drill="1.6" diameter="2.1844" shape="square"/>
+<pad name="MINUS" x="6.41" y="8" drill="1.6" diameter="2.1844" shape="square"/>
 <wire x1="0" y1="0" x2="9" y2="0" width="0.127" layer="51"/>
 </package>
 </packages>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9710,6 +9710,11 @@ http://www.zetex.com&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="-27.94" y="83.82" size="1.778" layer="91">used by s.usv</text>
+<text x="-27.94" y="81.28" size="1.778" layer="91">used by s.usv</text>
+<text x="-38.1" y="71.12" size="1.778" layer="91">used by s.usv</text>
+<text x="-27.94" y="53.34" size="1.778" layer="91">used by s.usv</text>
+<text x="55.88" y="53.34" size="1.778" layer="91">used by s.usv</text>
 </plain>
 <instances>
 <instance part="PCB1" gate="G$1" x="22.86" y="63.5"/>
@@ -10902,6 +10907,30 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="IC1" gate="C" pin="+IN"/>
 <wire x1="160.02" y1="17.78" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 <label x="149.86" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO02/SDA1"/>
+<wire x1="-5.08" y1="83.82" x2="-27.94" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="ID_SD"/>
+<wire x1="-5.08" y1="53.34" x2="-27.94" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="ID_SC"/>
+<wire x1="48.26" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO03/SCL1"/>
+<wire x1="-5.08" y1="81.28" x2="-27.94" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

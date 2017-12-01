@@ -10095,7 +10095,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <plain>
 <text x="-27.94" y="83.82" size="1.778" layer="91">used by s.usv</text>
 <text x="-27.94" y="81.28" size="1.778" layer="91">used by s.usv</text>
-<text x="-38.1" y="71.12" size="1.778" layer="91">used by s.usv</text>
+<text x="-27.94" y="71.12" size="1.778" layer="91">used by s.usv</text>
 <text x="-27.94" y="53.34" size="1.778" layer="91">used by s.usv</text>
 <text x="55.88" y="53.34" size="1.778" layer="91">used by s.usv</text>
 <text x="50.8" y="38.1" size="1.778" layer="91">SPI1 SCLK</text>
@@ -10362,9 +10362,9 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <pinref part="T3" gate="A" pin="G"/>
 </segment>
 <segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO27/GEN2"/>
-<wire x1="-5.08" y1="71.12" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
-<label x="-20.32" y="71.12" size="1.778" layer="95"/>
+<pinref part="PCB1" gate="G$1" pin="GEN4/GPIO23"/>
+<wire x1="48.26" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+<label x="60.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M6" class="0">
@@ -10742,7 +10742,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <label x="238.5" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CS" class="0">
+<net name="CS_ADC" class="0">
 <segment>
 <pinref part="U$58" gate="G$1" pin="CS/SHDN"/>
 <wire x1="383.54" y1="-22.7" x2="386.7" y2="-22.7" width="0.1524" layer="91"/>
@@ -11367,11 +11367,6 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 </net>
 <net name="SPI0CE1" class="0">
 <segment>
-<pinref part="PCB1" gate="G$1" pin="!CE!/GPIO07"/>
-<wire x1="48.26" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<label x="60.96" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="B" pin="OE"/>
 <wire x1="5.08" y1="175.26" x2="5.08" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="177.8" x2="-20.32" y2="177.8" width="0.1524" layer="91"/>
@@ -11382,6 +11377,19 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="5.08" y1="195.58" x2="5.08" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="198.12" x2="-20.32" y2="198.12" width="0.1524" layer="91"/>
 <label x="-17.78" y="198.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CS_DOTSTARS" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="!CE!/GPIO07"/>
+<wire x1="48.26" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="60.96" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO27" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO27/GEN2"/>
+<wire x1="-5.08" y1="71.12" x2="-12.7" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

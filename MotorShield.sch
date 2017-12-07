@@ -13941,7 +13941,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <classes>
 <class number="0" name="signal" width="0" drill="0">
 </class>
-<class number="1" name="motor 2A" width="0.4064" drill="0">
+<class number="1" name="motor 2A" width="0.8128" drill="0">
 </class>
 <class number="2" name="input 8A" width="2.54" drill="0">
 </class>
@@ -13949,11 +13949,11 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <parts>
 <part name="PCB1" library="RASPBERRY_PI_GPIO" deviceset="RASPBERRY_PI_B+" device="_DIM"/>
 <part name="IC1" library="burr-brown" deviceset="OPA4340" device="E"/>
-<part name="IC2" library="burr-brown" deviceset="OPA4340" device="E"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="100m"/>
+<part name="IC2" library="burr-brown" deviceset="OPA4340" device="E" value="OPA4340E"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="100m"/>
 <part name="C1" library="eagle-ltspice" deviceset="C" device="" value="10nF"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO214AA" value="200V/4A"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
 <part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R19" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
@@ -13985,7 +13985,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="100m"/>
 <part name="C4" library="eagle-ltspice" deviceset="C" device="" value="10nF"/>
 <part name="D4" library="diode" deviceset="DIODE-" device="DO214AA" value="200V/4A"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="100k"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="100m"/>
 <part name="C5" library="eagle-ltspice" deviceset="C" device="" value="10nF"/>
@@ -14032,46 +14032,46 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="X6" library="con-wago255" deviceset="233-203" device="" value="DOTSTARS"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="F1" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F2" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F3" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F4" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F5" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F6" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F7" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="F8" library="ptc-littlefuse" deviceset="1812L" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="yellow"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
-<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED7" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
-<part name="LED8" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
+<part name="F1" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F2" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F3" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F4" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F5" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F6" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F7" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="F8" library="ptc-littlefuse" deviceset="1812L" device="" value="1A"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
+<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
+<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
+<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
+<part name="LED7" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
+<part name="LED8" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
 <part name="LED9" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
 <part name="LED10" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED11" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
-<part name="LED12" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED13" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
-<part name="LED14" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED15" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
+<part name="LED11" library="led" deviceset="LED" device="CHIPLED_0805" value="red"/>
+<part name="LED12" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
+<part name="LED13" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
+<part name="LED14" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
+<part name="LED15" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
 <part name="LED16" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="R41" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R42" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R43" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R44" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R45" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R46" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R47" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R48" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R49" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R50" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R51" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
+<part name="R41" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R42" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R43" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R45" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R46" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R47" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R48" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R49" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R52" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
 <part name="R54" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
 <part name="R55" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R56" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
+<part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="P+3" library="supply1" deviceset="+24V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="MCP3008" deviceset="MCP3008" device="SL"/>

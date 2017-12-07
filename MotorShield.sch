@@ -14048,14 +14048,14 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
 <part name="LED7" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
 <part name="LED8" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
-<part name="LED9" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
-<part name="LED10" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
-<part name="LED11" library="led" deviceset="LED" device="CHIPLED_0805" value="red"/>
+<part name="LED9" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
+<part name="LED10" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
+<part name="LED11" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
 <part name="LED12" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
 <part name="LED13" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
 <part name="LED14" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
 <part name="LED15" library="led" deviceset="LED" device="CHIP-LED0805" value="red"/>
-<part name="LED16" library="led" deviceset="LED" device="CHIP-LED0603" value="yellow"/>
+<part name="LED16" library="led" deviceset="LED" device="CHIP-LED0805" value="yellow"/>
 <part name="R41" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R42" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R43" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
@@ -14067,10 +14067,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="R49" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
-<part name="R52" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R53" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R54" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
-<part name="R55" library="rcl" deviceset="R-EU_" device="R0603" value="2k2"/>
+<part name="R52" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R53" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R54" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
+<part name="R55" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="P+3" library="supply1" deviceset="+24V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

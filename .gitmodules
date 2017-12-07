@@ -1,0 +1,6 @@
+[submodule "eagle-lbr"]
+	path = eagle-lbr
+	url = https://github.com/halfakop/eagle-lbr
+[submodule "PCB-Designs"]
+	path = PCB-Designs
+	url = https://github.com/hpbock/PCB-Designs

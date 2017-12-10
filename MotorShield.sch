@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -14007,15 +14007,15 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="D8" library="diode" deviceset="DIODE-" device="DO214AA" value="200V/4A"/>
 <part name="R39" library="rcl" deviceset="R-EU_" device="R0805" value="100k"/>
 <part name="R40" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="T1" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T2" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T3" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T4" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T5" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T6" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T7" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="T8" library="zetex" deviceset="NMOSSOT23" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C1812"/>
+<part name="T1" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T2" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T3" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T4" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T5" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T6" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T7" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="T8" library="zetex" deviceset="NMOSSOT23" device="" value="FDN337N"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C1812" value="22uF"/>
 <part name="IC3" library="74xx-eu" deviceset="74*125" device="D" technology="HCT"/>
 <part name="X2" library="con-phoenix-508" deviceset="MSTBV8" device=""/>
 <part name="X3" library="con-phoenix-508" deviceset="MSTBV8" device="">
@@ -14028,7 +14028,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="P+2" library="supply1" deviceset="+24V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="T9" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C"/>
+<part name="T9" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847C"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="X6" library="con-wago255" deviceset="233-203" device="" value="DOTSTARS"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -14081,6 +14081,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14253,6 +14257,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <instance part="P+4" gate="VCC" x="55.88" y="96.52"/>
 <instance part="GND7" gate="1" x="-12.7" y="30.48"/>
 <instance part="+3V2" gate="G$1" x="-12.7" y="96.52"/>
+<instance part="+3V3" gate="G$1" x="114.3" y="27.94"/>
+<instance part="+3V4" gate="G$1" x="215.9" y="25.4"/>
+<instance part="GND8" gate="1" x="114.3" y="0"/>
+<instance part="GND9" gate="1" x="215.9" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -14456,11 +14464,13 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="IC1" gate="A" pin="V-"/>
 <wire x1="114.3" y1="7.62" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
 <label x="116.84" y="2.54" size="1.778" layer="95"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="V-"/>
 <wire x1="215.9" y1="5.08" x2="215.9" y2="0" width="0.1524" layer="91"/>
 <label x="218.44" y="0" size="1.778" layer="95"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -14984,23 +14994,6 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="251.3" y1="-50.8" x2="251.3" y2="-72.8" width="0.1524" layer="91"/>
 <wire x1="251.3" y1="-72.8" x2="282" y2="-72.8" width="0.1524" layer="91"/>
 <junction x="282" y="-72.8"/>
-</segment>
-</net>
-<net name="+3,3V" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="V+"/>
-<wire x1="215.9" y1="20.32" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
-<label x="218.44" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="A" pin="V+"/>
-<wire x1="114.3" y1="22.86" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
-<label x="116.84" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PCB1" gate="G$1" pin="3V3@2"/>
-<wire x1="-5.08" y1="66.04" x2="-12.7" y2="66.04" width="0.1524" layer="91"/>
-<label x="-20.32" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="1">
@@ -15725,6 +15718,21 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="-12.7" y1="86.36" x2="-12.7" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="3V3@2"/>
+<wire x1="-5.08" y1="66.04" x2="-12.7" y2="66.04" width="0.1524" layer="91"/>
+<label x="-20.32" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="V+"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="215.9" y1="20.32" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="V+"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -15743,6 +15751,21 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,48.26,86.36,PCB1,5V0,VCC,,,"/>
+<approved hash="104,1,-5.08,86.36,PCB1,3V3,+3V3,,,"/>
+<approved hash="104,1,48.26,83.82,PCB1,5V0,VCC,,,"/>
+<approved hash="104,1,-5.08,66.04,PCB1,3V3,+3V3,,,"/>
+<approved hash="104,1,114.3,22.86,IC1A,V+,+3V3,,,"/>
+<approved hash="104,1,114.3,7.62,IC1A,V-,GND,,,"/>
+<approved hash="104,1,215.9,20.32,IC2A,V+,+3V3,,,"/>
+<approved hash="104,1,215.9,5.08,IC2A,V-,GND,,,"/>
+<approved hash="104,1,335.28,7.62,U$1,VDD,+3V3,,,"/>
+<approved hash="104,1,327.66,7.62,U$1,VREF,+3V3,,,"/>
+<approved hash="104,1,330.2,7.62,U$1,AGND,GND,,,"/>
+<approved hash="209,1,5.08,175.26,SPI0CE1,,,,,"/>
+<approved hash="209,1,5.08,195.58,SPI0CE1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

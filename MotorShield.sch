@@ -12611,6 +12611,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="R58" library="rcl" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="R59" library="rcl" deviceset="R-EU_" device="R0805" value="220"/>
 <part name="R60" library="rcl" deviceset="R-EU_" device="R0805" value="220"/>
+<part name="LED17" library="led" deviceset="LED" device="CHIP-LED0805" value="green"/>
+<part name="R61" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 </parts>
 <sheets>
 <sheet>
@@ -12788,6 +12790,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <instance part="R58" gate="G$1" x="116.84" y="195.58"/>
 <instance part="R59" gate="G$1" x="124.46" y="190.5"/>
 <instance part="R60" gate="G$1" x="129.54" y="185.42"/>
+<instance part="LED17" gate="G$1" x="464.82" y="137.16"/>
+<instance part="R61" gate="G$1" x="464.82" y="154.94" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13068,6 +13072,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <junction x="487.68" y="129.54"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="487.68" y1="124.46" x2="487.68" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="LED17" gate="G$1" pin="C"/>
+<wire x1="464.82" y1="132.08" x2="464.82" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="129.54" x2="487.68" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -13907,6 +13914,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="487.68" y1="162.56" x2="487.68" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="487.68" y1="152.4" x2="487.68" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R61" gate="G$1" pin="2"/>
+<wire x1="464.82" y1="160.02" x2="464.82" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="162.56" x2="487.68" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="154.94" x2="375.92" y2="144.78" width="0.1524" layer="91"/>
@@ -14371,6 +14381,13 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="R60" gate="G$1" pin="2"/>
 <pinref part="X4" gate="G$1" pin="-6"/>
 <wire x1="134.62" y1="185.42" x2="137.16" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="LED17" gate="G$1" pin="A"/>
+<pinref part="R61" gate="G$1" pin="1"/>
+<wire x1="464.82" y1="139.7" x2="464.82" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

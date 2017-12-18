@@ -12461,7 +12461,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="signal" width="0" drill="0">
+<class number="0" name="signal" width="0.254" drill="0">
+<clearance class="0" value="0.254"/>
 </class>
 <class number="1" name="motor 2A" width="0.8128" drill="0">
 </class>
@@ -12595,7 +12596,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="R56" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="P+3" library="supply1" deviceset="+24V" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="MCP3008" deviceset="MCP3008" device="SL"/>
+<part name="IC4" library="MCP3008" deviceset="MCP3008" device="SL"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
@@ -12774,7 +12775,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <instance part="R56" gate="G$1" x="393.7" y="147.32" rot="R90"/>
 <instance part="P+3" gate="1" x="375.92" y="165.1"/>
 <instance part="GND5" gate="1" x="487.68" y="121.92"/>
-<instance part="U$1" gate="G$1" x="327.66" y="-7.62"/>
+<instance part="IC4" gate="G$1" x="327.66" y="-7.62"/>
 <instance part="GND6" gate="1" x="345.44" y="5.08"/>
 <instance part="+3V1" gate="G$1" x="335.28" y="27.94"/>
 <instance part="C9" gate="G$1" x="342.9" y="17.78"/>
@@ -12920,6 +12921,11 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="236.22" y="91.44" size="1.778" layer="95"/>
 <pinref part="T5" gate="A" pin="G"/>
 </segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="!CE!/GPIO07"/>
+<wire x1="48.26" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="60.96" y="55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="M4" class="0">
 <segment>
@@ -12931,6 +12937,11 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="195.58" y="91.44" size="1.778" layer="95"/>
 <pinref part="T4" gate="A" pin="G"/>
 </segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GPIO11/SCLK"/>
+<wire x1="-5.08" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
+<label x="-20.32" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="M5" class="0">
 <segment>
@@ -12941,6 +12952,11 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <junction x="162.56" y="88.9"/>
 <label x="154.94" y="91.44" size="1.778" layer="95"/>
 <pinref part="T3" gate="A" pin="G"/>
+</segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="!CE0!/GPIO08"/>
+<wire x1="48.26" y1="58.42" x2="55.8" y2="58.42" width="0.1524" layer="91"/>
+<label x="61" y="58.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="M6" class="0">
@@ -13233,7 +13249,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
 <wire x1="337.82" y1="10.16" x2="337.82" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="10.16" x2="342.9" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="10.16" x2="345.44" y2="10.16" width="0.1524" layer="91"/>
@@ -13242,7 +13258,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="12.7" x2="342.9" y2="10.16" width="0.1524" layer="91"/>
 <junction x="342.9" y="10.16"/>
-<pinref part="U$1" gate="G$1" pin="AGND"/>
+<pinref part="IC4" gate="G$1" pin="AGND"/>
 <wire x1="330.2" y1="7.62" x2="330.2" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="10.16" x2="330.2" y2="10.16" width="0.1524" layer="91"/>
 <junction x="337.82" y="10.16"/>
@@ -13257,7 +13273,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="191.1" y="-48.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH1"/>
+<pinref part="IC4" gate="G$1" pin="CH1"/>
 <wire x1="314.96" y1="0" x2="302.26" y2="0" width="0.1524" layer="91"/>
 <label x="304.8" y="0" size="1.778" layer="95"/>
 </segment>
@@ -13271,7 +13287,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="135.2" y="-48.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH3"/>
+<pinref part="IC4" gate="G$1" pin="CH3"/>
 <wire x1="302.26" y1="-5.08" x2="314.96" y2="-5.08" width="0.1524" layer="91"/>
 <label x="304.8" y="-5.08" size="1.778" layer="95"/>
 </segment>
@@ -13285,7 +13301,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="187.6" y="14.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH0"/>
+<pinref part="IC4" gate="G$1" pin="CH0"/>
 <wire x1="314.96" y1="2.54" x2="302.26" y2="2.54" width="0.1524" layer="91"/>
 <label x="304.8" y="2.54" size="1.778" layer="95"/>
 </segment>
@@ -13299,7 +13315,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="137.2" y="15" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH2"/>
+<pinref part="IC4" gate="G$1" pin="CH2"/>
 <wire x1="314.96" y1="-2.54" x2="302.26" y2="-2.54" width="0.1524" layer="91"/>
 <label x="304.8" y="-2.54" size="1.778" layer="95"/>
 </segment>
@@ -13313,7 +13329,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="283.5" y="-48.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH5"/>
+<pinref part="IC4" gate="G$1" pin="CH5"/>
 <wire x1="302.26" y1="-10.16" x2="314.96" y2="-10.16" width="0.1524" layer="91"/>
 <label x="304.8" y="-10.16" size="1.778" layer="95"/>
 </segment>
@@ -13327,7 +13343,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="238.6" y="-48.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH7"/>
+<pinref part="IC4" gate="G$1" pin="CH7"/>
 <wire x1="302.26" y1="-15.24" x2="314.96" y2="-15.24" width="0.1524" layer="91"/>
 <label x="304.8" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -13341,7 +13357,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="281.8" y="12.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH4"/>
+<pinref part="IC4" gate="G$1" pin="CH4"/>
 <wire x1="314.96" y1="-7.62" x2="302.26" y2="-7.62" width="0.1524" layer="91"/>
 <label x="304.8" y="-7.62" size="1.778" layer="95"/>
 </segment>
@@ -13355,14 +13371,14 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="238.5" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH6"/>
+<pinref part="IC4" gate="G$1" pin="CH6"/>
 <wire x1="314.96" y1="-12.7" x2="302.26" y2="-12.7" width="0.1524" layer="91"/>
 <label x="304.8" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_ADC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!CS"/>
+<pinref part="IC4" gate="G$1" pin="!CS"/>
 <wire x1="330.2" y1="-20.32" x2="330.2" y2="-35.56" width="0.1524" layer="91"/>
 <label x="330.2" y="-35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -13377,13 +13393,6 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="PCB1" gate="G$1" pin="GPIO10/MOSI"/>
 <wire x1="-5.08" y1="63.5" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <label x="-20.32" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO11" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="GPIO11/SCLK"/>
-<wire x1="-5.08" y1="58.42" x2="-20.32" y2="58.42" width="0.1524" layer="91"/>
-<label x="-20.32" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -14181,9 +14190,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="IC4" gate="G$1" pin="VDD"/>
 <wire x1="335.28" y1="7.62" x2="335.28" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VREF"/>
+<pinref part="IC4" gate="G$1" pin="VREF"/>
 <wire x1="335.28" y1="12.7" x2="335.28" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="22.86" x2="335.28" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="12.7" x2="327.66" y2="12.7" width="0.1524" layer="91"/>
@@ -14262,7 +14271,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="-20.32" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
+<pinref part="IC4" gate="G$1" pin="MISO"/>
 <wire x1="337.82" y1="-35.56" x2="337.82" y2="-20.32" width="0.1524" layer="91"/>
 <label x="337.82" y="-35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -14274,7 +14283,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="60.96" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCK"/>
+<pinref part="IC4" gate="G$1" pin="SCK"/>
 <wire x1="335.28" y1="-35.56" x2="335.28" y2="-20.32" width="0.1524" layer="91"/>
 <label x="335.28" y="-35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -14291,7 +14300,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <label x="60.96" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
+<pinref part="IC4" gate="G$1" pin="MOSI"/>
 <wire x1="332.74" y1="-35.56" x2="332.74" y2="-20.32" width="0.1524" layer="91"/>
 <label x="332.74" y="-35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -14346,20 +14355,6 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="PCB1" gate="G$1" pin="GPIO17/GEN0"/>
 <label x="-20.32" y="73.66" size="1.778" layer="95"/>
 <wire x1="-5.08" y1="73.66" x2="-20.32" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GPIO08" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="!CE0!/GPIO08"/>
-<wire x1="48.26" y1="58.42" x2="55.8" y2="58.42" width="0.1524" layer="91"/>
-<label x="61" y="58.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO07" class="0">
-<segment>
-<pinref part="PCB1" gate="G$1" pin="!CE!/GPIO07"/>
-<wire x1="48.26" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<label x="60.96" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$33" class="0">

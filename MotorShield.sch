@@ -14397,13 +14397,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <approved hash="104,1,114.3,7.62,IC1A,V-,GND,,,"/>
 <approved hash="104,1,215.9,20.32,IC2A,V+,+3V3,,,"/>
 <approved hash="104,1,215.9,5.08,IC2A,V-,GND,,,"/>
-<approved hash="104,1,335.28,7.62,U$1,VDD,+3V3,,,"/>
-<approved hash="104,1,327.66,7.62,U$1,VREF,+3V3,,,"/>
-<approved hash="104,1,330.2,7.62,U$1,AGND,GND,,,"/>
-<approved hash="106,1,48.26,55.88,GPIO07,,,,,"/>
-<approved hash="106,1,48.26,58.42,GPIO08,,,,,"/>
+<approved hash="104,1,335.28,7.62,IC4,VDD,+3V3,,,"/>
+<approved hash="104,1,327.66,7.62,IC4,VREF,+3V3,,,"/>
+<approved hash="104,1,330.2,7.62,IC4,AGND,GND,,,"/>
 <approved hash="106,1,-5.08,63.5,GPIO10,,,,,"/>
-<approved hash="106,1,-5.08,58.42,GPIO11,,,,,"/>
 <approved hash="106,1,-5.08,71.12,GPIO27,,,,,"/>
 <approved hash="106,1,-5.08,83.82,N$16,,,,,"/>
 <approved hash="106,1,-5.08,53.34,N$19,,,,,"/>

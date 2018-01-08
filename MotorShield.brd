@@ -80,6 +80,7 @@
 Hans-Peter Bock</text>
 <wire x1="64.4525" y1="47.9425" x2="66.9925" y2="47.9425" width="0.254" layer="21"/>
 <wire x1="66.9925" y1="47.9425" x2="67.6275" y2="48.5775" width="0.254" layer="21"/>
+<text x="16.51" y="45.72" size="1.778" layer="25">IUNO Motor Shield V01.00.00</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice">
@@ -3910,7 +3911,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MPN" value="MSTBV 2,5/2-GF-5.08" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1792792" x="76.2" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="83.8835" y="4.445" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="70.231" y="7.62" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="77.47" y="-1.016" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="X4" library="con-wago255" package="233-206" value="INPUTS" x="6.985" y="39.37" rot="R270">

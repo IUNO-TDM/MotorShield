@@ -80,7 +80,7 @@
 Hans-Peter Bock</text>
 <wire x1="64.4525" y1="47.9425" x2="66.9925" y2="47.9425" width="0.254" layer="21"/>
 <wire x1="66.9925" y1="47.9425" x2="67.6275" y2="48.5775" width="0.254" layer="21"/>
-<text x="16.51" y="45.72" size="1.778" layer="25">IUNO Motor Shield V01.00.01</text>
+<text x="16.51" y="45.72" size="1.778" layer="25">IUNO Motor Shield V01.00.xx</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice">

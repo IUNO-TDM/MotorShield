@@ -5416,7 +5416,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="8.8875" y1="22.86" x2="10.795" y2="22.86" width="0.254" layer="16"/>
 <via x="10.795" y="22.86" extent="1-16" drill="0.6" shape="square"/>
 </signal>
-<signal name="INP_BTN_START">
+<signal name="INP_BTN_JUICE">
 <contactref element="PCB1" pad="7"/>
 <wire x1="15.99" y1="51.23" x2="15.99" y2="49.01" width="0.254" layer="1"/>
 <wire x1="15.99" y1="49.01" x2="11.43" y2="44.45" width="0.254" layer="1"/>
@@ -5436,7 +5436,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="6.35" y1="40.64" x2="7.62" y2="41.91" width="0.254" layer="1"/>
 <wire x1="7.62" y1="41.91" x2="12.065" y2="41.91" width="0.254" layer="1"/>
 </signal>
-<signal name="INP_DOOR_JUICE">
+<signal name="INP_DOOR_START">
 <contactref element="PCB1" pad="15"/>
 <wire x1="26.15" y1="51.23" x2="24.45" y2="49.53" width="0.254" layer="1"/>
 <wire x1="24.45" y1="49.53" x2="20.955" y2="49.53" width="0.254" layer="1"/>

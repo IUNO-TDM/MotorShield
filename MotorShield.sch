@@ -14043,7 +14043,7 @@ Types:&lt;p&gt;
 <junction x="175.26" y="220.98"/>
 </segment>
 </net>
-<net name="INP_BTN_START" class="0">
+<net name="INP_BTN_JUICE" class="0">
 <segment>
 <wire x1="137.16" y1="198.12" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
 <label x="88.9" y="198.12" size="1.778" layer="95"/>
@@ -14067,7 +14067,7 @@ Types:&lt;p&gt;
 <label x="60.96" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INP_DOOR_JUICE" class="0">
+<net name="INP_DOOR_START" class="0">
 <segment>
 <wire x1="137.16" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
 <label x="88.9" y="187.96" size="1.778" layer="95"/>

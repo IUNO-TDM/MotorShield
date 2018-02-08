@@ -106,6 +106,19 @@ Hans-Peter Bock</text>
 <text x="6.985" y="44.45" size="0.8128" layer="22" font="vector" rot="MR270" align="center">Door</text>
 <text x="6.985" y="39.37" size="0.8128" layer="22" font="vector" rot="MR270" align="center">Door</text>
 <text x="6.985" y="34.29" size="0.8128" layer="22" font="vector" rot="MR270" align="center">Button</text>
+<text x="1.905" y="25.7175" size="1.6764" layer="22" font="vector" rot="MR270" align="center">-</text>
+<text x="1.905" y="28.2575" size="1.6764" layer="22" font="vector" rot="MR270" align="center">+</text>
+<wire x1="0.635" y1="29.21" x2="12.065" y2="29.21" width="0.254" layer="22"/>
+<wire x1="12.065" y1="29.21" x2="12.065" y2="24.13" width="0.254" layer="22"/>
+<wire x1="12.065" y1="24.13" x2="0.635" y2="24.13" width="0.254" layer="22"/>
+<wire x1="0.635" y1="24.13" x2="0.635" y2="29.21" width="0.254" layer="22"/>
+<wire x1="0.635" y1="21.59" x2="12.065" y2="21.59" width="0.254" layer="22"/>
+<wire x1="12.065" y1="21.59" x2="12.065" y2="13.97" width="0.254" layer="22"/>
+<wire x1="12.065" y1="13.97" x2="0.635" y2="13.97" width="0.254" layer="22"/>
+<wire x1="0.635" y1="13.97" x2="0.635" y2="21.59" width="0.254" layer="22"/>
+<text x="1.905" y="20.32" size="0.8128" layer="22" font="vector" rot="MR90" align="center">GND</text>
+<text x="1.905" y="17.78" size="0.8128" layer="22" font="vector" rot="MR90" align="center">CLK</text>
+<text x="1.905" y="15.5575" size="0.8128" layer="22" font="vector" rot="MR90" align="center">DAT</text>
 </plain>
 <libraries>
 <library name="eagle-ltspice">

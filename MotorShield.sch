@@ -9315,47 +9315,6 @@ http://www.zetex.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Spule">
-<packages>
-<package name="4040">
-<smd name="P$1" x="0" y="1.575" dx="2" dy="1.3" layer="1"/>
-<smd name="P$2" x="0" y="-1.575" dx="2" dy="1.3" layer="1"/>
-<wire x1="-2.03" y1="2.225" x2="2.03" y2="2.225" width="0.127" layer="51"/>
-<wire x1="2.03" y1="2.225" x2="2.03" y2="-2.225" width="0.127" layer="51"/>
-<wire x1="2.03" y1="-2.225" x2="-2.03" y2="-2.225" width="0.127" layer="51"/>
-<wire x1="-2.03" y1="-2.225" x2="-2.03" y2="2.225" width="0.127" layer="51"/>
-<text x="-2.54" y="-2.54" size="1.27" layer="21" rot="R90">&gt;Name</text>
-<text x="3.81" y="-2.54" size="1.27" layer="21" rot="R90">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="INDUCTOR">
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<rectangle x1="-1.016" y1="-3.556" x2="1.016" y2="3.556" layer="94"/>
-<pin name="P$1" x="0" y="5.08" length="middle" rot="R270"/>
-<pin name="P$2" x="0" y="-5.08" length="middle" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MPI4040">
-<gates>
-<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="4040">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="74xx-eu">
 <description>&lt;b&gt;TTL Devices, 74xx Series with European Symbols&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -12459,6 +12418,69 @@ Types:&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="MPI4040">
+<packages>
+<package name="MPI4040">
+<description>minimized power inductor</description>
+<smd name="1" x="0" y="2" dx="2.3" dy="2.3" layer="1"/>
+<smd name="2" x="0" y="-2" dx="2.3" dy="2.3" layer="1"/>
+<wire x1="2.03" y1="2.225" x2="2.03" y2="-2.225" width="0.2032" layer="21"/>
+<wire x1="-2.03" y1="-2.225" x2="-2.03" y2="2.225" width="0.2032" layer="21"/>
+<circle x="1.55" y="1.7" radius="0.2" width="0.2032" layer="21"/>
+<wire x1="-2.03" y1="2.225" x2="2.03" y2="2.225" width="0.127" layer="51"/>
+<wire x1="2.03" y1="2.225" x2="2.03" y2="-2.225" width="0.127" layer="51"/>
+<wire x1="2.03" y1="-2.225" x2="-2.03" y2="-2.225" width="0.127" layer="51"/>
+<wire x1="-2.03" y1="-2.225" x2="-2.03" y2="2.225" width="0.127" layer="51"/>
+<circle x="1.55" y="1.7" radius="0.2" width="0.127" layer="51"/>
+<text x="-2.54" y="-2.225" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="2.54" y="2.225" size="1.27" layer="27" rot="R270">&gt;Value</text>
+<wire x1="1.35" y1="2.225" x2="2.03" y2="2.225" width="0.2032" layer="21"/>
+<wire x1="-2.03" y1="2.225" x2="-1.35" y2="2.225" width="0.2032" layer="21"/>
+<wire x1="2.03" y1="-2.225" x2="1.35" y2="-2.225" width="0.2032" layer="21"/>
+<wire x1="-1.35" y1="-2.225" x2="-2.03" y2="-2.225" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MPI">
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.651" x2="-2.54" y2="1.651" width="0.254" layer="94"/>
+<circle x="-1.905" y="-0.635" radius="0.254" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MPI4040R3-1R5-R" prefix="L" uservalue="yes">
+<description>MPI4040R3-1R5-R</description>
+<gates>
+<gate name="G$1" symbol="MPI" x="-10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="MPI4040">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="RS-COMPONENTS" value="770-2738" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12498,7 +12520,6 @@ Types:&lt;p&gt;
 <part name="R38" library="rcl" deviceset="R-EU_" device="R0805" value="27k"/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="L1" library="Spule" deviceset="MPI4040" device=""/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="100m"/>
 <part name="C7" library="eagle-ltspice" deviceset="C" device="" value="10nF"/>
 <part name="D7" library="diode" deviceset="DIODE-" device="DO214AA" value="200V/4A"/>
@@ -12623,6 +12644,7 @@ Types:&lt;p&gt;
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805K" value="22nF"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0805K" value="22nF"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805K" value="22nF"/>
+<part name="L1" library="MPI4040" deviceset="MPI4040R3-1R5-R" device="" value="1,5uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -12664,7 +12686,6 @@ Types:&lt;p&gt;
 <instance part="R38" gate="G$1" x="282" y="-64.2" rot="R90"/>
 <instance part="R30" gate="G$1" x="282" y="-85.2" rot="R90"/>
 <instance part="R16" gate="G$1" x="99.06" y="71.12" rot="R90"/>
-<instance part="L1" gate="G$1" x="495.3" y="162.56" rot="R270"/>
 <instance part="R7" gate="G$1" x="149.86" y="71.12" rot="R90"/>
 <instance part="C7" gate="G$1" x="167.64" y="71.12"/>
 <instance part="D7" gate="G$1" x="149.86" y="111.76" rot="R90"/>
@@ -12807,6 +12828,7 @@ Types:&lt;p&gt;
 <instance part="C11" gate="G$1" x="86.36" y="182.88"/>
 <instance part="C12" gate="G$1" x="96.52" y="182.88"/>
 <instance part="C13" gate="G$1" x="106.68" y="182.88"/>
+<instance part="L1" gate="G$1" x="502.92" y="162.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -13935,16 +13957,14 @@ Types:&lt;p&gt;
 <segment>
 <pinref part="X1" gate="-1" pin="1"/>
 <wire x1="513.08" y1="142.24" x2="515.62" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="P$1"/>
 <wire x1="515.62" y1="142.24" x2="515.62" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="162.56" x2="500.38" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="P$1"/>
+<wire x1="508" y1="162.56" x2="515.62" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+24V" class="1">
 <segment>
 <pinref part="P+2" gate="1" pin="+24V"/>
-<pinref part="L1" gate="G$1" pin="P$2"/>
-<wire x1="490.22" y1="162.56" x2="487.68" y2="162.56" width="0.1524" layer="91"/>
 <junction x="487.68" y="162.56"/>
 <wire x1="487.68" y1="162.56" x2="487.68" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -13952,6 +13972,8 @@ Types:&lt;p&gt;
 <pinref part="R58" gate="G$1" pin="2"/>
 <wire x1="464.82" y1="160.02" x2="464.82" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="162.56" x2="487.68" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="P$2"/>
+<wire x1="497.84" y1="162.56" x2="487.68" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="393.7" y1="157.48" x2="393.7" y2="147.32" width="0.1524" layer="91"/>
